@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# VSCode
+.vscode/
+
+# Playwright
+playwright-report/
+test-results/
+*.log
+
+# Pytest
+.cache/
+.pytest_cache/
+
+# Ignorar capturas de pantalla PNG
+*.png
+# Si las capturas se guardan en una carpeta específica, por ejemplo screenshots/
+screenshots/
+
+# Otros
+.DS_Store
+*.swp
